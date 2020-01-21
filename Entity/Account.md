@@ -44,3 +44,22 @@ public class AccountInfo
     }
 }
 ```
+
+## BasicAccountInfo实体
+### 属性列表
+|名称|类型|说明|
+|:-|:-:|:-:|
+|NickName|string|表示用户昵称。|
+### 服务端代码
+```csharp
+public class BasicAccountInfo
+{
+    public string NickName { get; set; }
+}
+```
+### Json格式示例
+```json
+{
+    "NickName": "nicknameeeeeeee"
+}
+```
