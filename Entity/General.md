@@ -88,7 +88,7 @@ public enum ReplyCode
 ```
 
 ## ValueWithAccountToken实体
-此实体是[泛型类型][generic_ins]。用以为需要登录的接口提供帐户令牌和参数。
+此实体是[泛型类型][generic_ins]。用以为需要登录的接口提供账户令牌和参数。
 ### 泛型参数列表
 |名称|说明|
 |:-|:-|
@@ -97,7 +97,7 @@ public enum ReplyCode
 |名称|类型|说明|
 |:-|:-:|:-|
 |Value|TValue|表示参数值。|
-|AccountToken|byte[]|表示帐户令牌。|
+|AccountToken|byte[]|表示账户令牌。|
 ### 服务端定义
 ```csharp
 public class ValueWithAccountToken<TValue>

@@ -54,7 +54,7 @@ public class DiaryInfo
 ### 属性列表
 |名称|类型|说明|
 |:-|:-:|:-|
-|Count|int|表示每页的数量。|
+|Count|int|表示每页的数量。为0可能导致不正常的结果。|
 |PageIndex|int|表示页号。0为第一页。|
 ### 服务端定义
 ```csharp
