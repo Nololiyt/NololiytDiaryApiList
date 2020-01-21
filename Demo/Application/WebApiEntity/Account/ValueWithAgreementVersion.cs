@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WebApiEntity.Account
 {
-    public class ValueCombinedWithAgreementVersion<TValue>
+    public class ValueWithAgreementVersion<TValue>
     {
         public TValue CombinedValue { get; set; }
         public string AgreementVersion { get; set; }

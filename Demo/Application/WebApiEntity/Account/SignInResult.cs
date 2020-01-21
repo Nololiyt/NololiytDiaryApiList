@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WebApiEntity.Account
 {
-    public enum SignInResult
+    public enum SignInState
     {
         Success = 0,
         WrongAccountOrPassword = 1,
