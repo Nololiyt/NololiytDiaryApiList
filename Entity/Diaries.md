@@ -75,7 +75,6 @@ public class PageFactor
 }
 ```
 
-
 ## SearchFactor实体
 ### 属性列表
 |名称|类型|说明|
